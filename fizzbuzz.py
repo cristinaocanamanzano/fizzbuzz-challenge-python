@@ -1,3 +1,6 @@
 def print_fizzbuzz():
     for num in range(1, 101):
-        print(num)
+        if num % 15 is 0:
+            print('FizzBuzz')
+        else:
+            print(num)
